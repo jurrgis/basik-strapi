@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_custom_fields",
+  "info": {
+    "displayName": "CustomFields",
+    "icon": "connector"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

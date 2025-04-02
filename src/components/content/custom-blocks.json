@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_custom_blocks",
+  "info": {
+    "displayName": "CustomBlocks",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "block": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string",
+      "default": "block_1",
+      "regex": "^block_\\d+$"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_products",
+  "info": {
+    "displayName": "Products",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "stripe_url": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

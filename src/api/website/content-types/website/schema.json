@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": "Website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "posts": {
+      "displayName": "Posts",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.posts"
+    },
+    "products": {
+      "displayName": "Products",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.products"
+    },
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.pages"
+    },
+    "title": {
+      "type": "string"
+    },
+    "events": {
+      "displayName": "Events",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.events"
+    },
+    "custom_fields": {
+      "displayName": "CustomFields",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.custom-fields"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_pages",
+  "info": {
+    "displayName": "Pages",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Blocks": {
+      "displayName": "CustomBlocks",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.custom-blocks"
+    }
+  }
+}
